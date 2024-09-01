@@ -11,7 +11,7 @@ public class TopDown_Movement : MonoBehaviour
 
     [SerializeField] private float rotateSpeed;
 
-    [SerializeField] private Camera camera;
+    [SerializeField] private new Camera camera;
 
     [SerializeField] private Animator animator;
 
